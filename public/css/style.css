@@ -1,0 +1,213 @@
+
+section {
+    scroll-margin-top: 100px;
+    margin-bottom: 50px;
+  }
+h1 {
+    font-family: Helvetica;
+    font-size: 36px;
+    font-weight: bold;
+}
+h2 {
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: bold;
+}
+h3 {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 16px;
+}
+  
+/* Navbar */
+#header .navbar {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    background-color: #F1F3FF;
+}
+#header .logo {
+    width: 100px;
+    height: 34px;
+}
+#header .nav-link {
+    margin: 0px 20px;
+    color: #000000;
+}
+#header .btn {
+    margin: 0 20px;
+    padding: 8px 12px 8px 12px;
+    width: 81px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #5CB85F;
+    color: #FFFFFF;
+    border-radius: 2px;
+}
+
+/* section-1 */
+#section-1 {
+    background-color: #F1F3FF; 
+}
+#section-1 .container-fluid {
+    padding-top: 80px;
+    padding-left: 0px;
+    padding-right: 0px
+}
+#section-1 p {
+   text-align: justify;
+}
+#section-1 .box-1 {
+    padding: 50px;
+}
+#section-1 .car {
+    width: 100%
+}
+.btn-utama {
+    background-color: #5CB85F;
+    color: #ffff;
+    border-radius: 0;
+}
+.btn-utama:hover {
+    color: #5CB85F;
+    background-color: #FFFFFF;
+    border: 1px solid #5CB85F;
+}
+
+/* section-2 */
+#section-2 .icon-check {
+    width: 24px;
+    height: 24px;
+}
+
+/* section-3 */
+#section-3 .card {
+    text-align: justify;
+    padding: 10px;
+    /* width: 290px; */
+    height: 196px;
+    border-radius: 10px;
+}
+
+#section-3 .text {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 15px;
+}
+
+/* section-4 */
+/* .carousel {
+    padding: 0 20px;
+    
+} */
+#section-4 .container {
+    padding: 0px;
+    background: #f1f3ff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    width: 900px;
+}
+#section-4 .profile {
+    padding: 0;
+    margin: 30% 50%;
+    width: 90px;
+    height: 90px;
+}
+#section-4 .testimoni {
+    padding: 0;
+    margin: 0% 5%;
+}
+
+#section-4 .testimoni {
+    padding: 0;
+    text-align: justify;
+    align-items: start;
+    
+}
+
+/* section-5 */
+#section-5 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#section-5 .container {
+    justify-content: center;
+    align-items: center;
+    background-color: #0D28A6;
+    width: 70%;
+}
+
+/* section-6 */
+#section-6 {
+    height: 500px;
+  }
+
+#footer {
+    height: 324px;
+
+}
+
+/* footer */
+#footer .icon-sosmed {
+    width: 34px;
+    height: 34px;
+}
+
+
+@media only screen and (max-width: 576px) {
+    #offcanvasNavbar {
+        width: 65%;
+    }
+  
+    .custom-size {
+        width: 252px;
+        height: 228px;
+    }
+  
+    .custom-position {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    .service-font h2 {
+        line-height: 36px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+  
+    .service-font p {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+    }
+  
+    .custom-faq h1,
+    .custom-faq p {
+        text-align: center;
+    }
+    #section-4 .container {
+        padding: 0px;
+        background: #f1f3ff;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+        width: 100%;
+    }
+    #section-4 .profile {
+        padding: 0;
+        margin: 0% 0%;
+        width: 90px;
+        height: 90px;
+    }
+    #section-5 .container {
+        justify-content: center;
+        align-items: center;
+        background-color: #0D28A6;
+        width: 80%;
+    }
+  }
